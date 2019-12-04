@@ -1,0 +1,16 @@
+body {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.borderOutput {
+  border: 5px solid red;  
+}
+
+.borderInput {
+  border: 5px solid greenyellow;  
+}
+
+.borderApp {
+  border: 5px solid lightblue;  
+}

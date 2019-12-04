@@ -8,7 +8,7 @@ export default function Output() {
   const changeTextForm = (elem) => { changeText(elem.target.value) }
 
   return (
-    <div>
+    <div className="borderOutput">
       <h3>Output component (child1)</h3>
       <input type="input" value={inputText} onChange={changeTextForm} />
       <button type="button" onClick={() => {
@@ -16,9 +16,9 @@ export default function Output() {
         updatePropText(inputText)
       }}>START</button>
       <br />
-      Text in Output component from useState: {propText}
+      Output component text from useState hook: {propText}
       <br />
-      Text in Output component from text form: {inputText}
+      Output component text from text form: {inputText}
     </div>
   )
 }
